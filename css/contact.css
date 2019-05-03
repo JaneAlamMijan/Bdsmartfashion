@@ -5,15 +5,23 @@ body{
 }
 .navbar{
  border-bottom: 3px solid #008ad6;
- background: #292b2c;
+ background: #000;
  opacity: 0.7;
+ /*text-transform: uppercase;*/
 
+}
+.nav-item{
+    padding-right: 1em !important;
+}
+.nav-link{
+    text-transform: uppercase;
 }
 #contact-section{
     background: url('../img/section.jpg') no-repeat center top;
     background-size: cover;
    /*pic fixt */
    background-attachment: fixed;
+   border-bottom: 4px solid #4c1d72;
    
    }
    /*it is for dark overlay position(photo background color)*/
@@ -21,12 +29,7 @@ body{
     background-color: rgba(8, 8, 8, 0.719);
     min-height: 750px;
      }
-.fa{
-         background: #fff;
-         color: #0f82c0;
-         padding: 4px;
-         font-size: 30px;
-}
+
 .card-form{
     opacity: 0.8;
 }
@@ -67,7 +70,30 @@ hr{
     color: #292b2c;
 }
 
+/*Author*/
+.nhpic{
+    margin-top:-45px;
+}
+.pic:hover{
+    background: #a7d8e2;
+    
 
+}
+
+.pareg{
+    color: black;
+}
+.pic{
+    color: black;
+}
+#creat-main{
+    border-bottom: 4px solid #ffff;
+    color: #050505;
+}
+.fa{
+    font-size:25px;
+    
+}
 
 
 
@@ -79,7 +105,7 @@ hr{
 /*media query 
 use bottom all css code.
 for small device h1 tag*/
-@media(max-width:768){
+@media(max-width:768px){
     #home-section p{
         font-size: 30px;
     }

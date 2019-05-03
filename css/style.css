@@ -5,9 +5,13 @@ body{
 }
 .navbar{
  border-bottom: 3px solid #008ad6;
- background: #292b2c;
+ background: #000;
  opacity: 0.7;
 
+}.nav-item{
+    padding-right: 1em !important;
+}.nav-link{
+    text-transform: uppercase;
 }
 #home-section{
     background: url('../img/sectionbody.jpg') no-repeat center top;
